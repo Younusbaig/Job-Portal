@@ -48,7 +48,7 @@ public class MainController {
     @GetMapping("/index")
     public String index(Model model, Authentication authentication){
 
-        PageRequest pageable = PageRequest.of( 0, 3);
+        PageRequest pageable = PageRequest.of( 0, 10);
         Page<Post> postPage = postService.getPaginatedPostsofUser(userService.findByUsername(authentication.getName()),pageable);
 
         int totalPages = postPage.getTotalPages();
@@ -66,7 +66,7 @@ public class MainController {
     @GetMapping("/page/{page}")
     public String listArticlesPageByPage(@PathVariable("page") int page, Model model, Authentication authentication) {
 
-        PageRequest pageable = PageRequest.of( page - 1, 3);
+        PageRequest pageable = PageRequest.of( page - 1, 10);
 
         Page<Post> postPage = postService.getPaginatedPostsofUser(userService.findByUsername(authentication.getName()),pageable);
 
@@ -84,7 +84,7 @@ public class MainController {
     @GetMapping("list/all")
     public String listAll(Model model, Authentication authentication){
 
-        PageRequest pageable = PageRequest.of( 0, 12);
+        PageRequest pageable = PageRequest.of( 0, 100);
         Page<Post> postPage = postService.getPaginatedPosts(pageable);
 
         int totalPages = postPage.getTotalPages();

@@ -9,40 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d95763a2-8c7d-4df3-ba06-54c728298eb7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/controllers/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/controllers/EmailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/controllers/UserRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/controllers/UserRegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/models/DTO/PostDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/models/DTO/PostDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/models/DTO/PostEmployeeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/models/DTO/PostEmployeeDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/models/DTO/UserRegistrationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/models/DTO/UserRegistrationDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/models/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/models/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/models/PostEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/models/PostEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/services/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/services/NotificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/uploads/issue.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/uploads/issue.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/uploads/jobs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/uploads/jobs.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/applicationInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/applicationInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editPost.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editPost.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/empView.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/empView.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/errors/uploadFileError.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/errors/uploadFileError.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index_test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index_user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/listApplications.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/listApplications.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/listall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/listall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/postApply.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/postApply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/postEmp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/postEmp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/postEmpList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/postEmpList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/posts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userSettings.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userSettings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/write_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/write_email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/controllers/MainController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

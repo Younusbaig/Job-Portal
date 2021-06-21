@@ -2,7 +2,9 @@ package springboot.models.DTO;
 
 import springboot.models.User;
 
+import javax.persistence.Column;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Null;
 
 public class PostEmployeeDTO {
 
@@ -18,6 +20,7 @@ public class PostEmployeeDTO {
     @NotEmpty
     private String education;
 
+    @Column(nullable = true)
     private String imgName;
 
     private String price;

@@ -16,8 +16,8 @@ public class NotificationService {
 
     public void sendNotification(NotificationDTO notificationDTO) throws MailException {
         SimpleMailMessage mail = new SimpleMailMessage();
-        mail.setTo("peps.mihailov@gmail.com");
-        mail.setFrom("peps.mihailov@gmail.com");
+        mail.setTo("baigy847@gmail.com");
+        mail.setFrom("baigy847@gmail.com");
         mail.setSubject(notificationDTO.getSubject());
         mail.setText(notificationDTO.getFirstname() + " " + notificationDTO.getLastname() + ", " + notificationDTO.getMessage());
 
@@ -25,8 +25,8 @@ public class NotificationService {
     }
     public void sendApprovedNotification(NotificationDTO notificationDTO) throws MailException{
         SimpleMailMessage mail = new SimpleMailMessage();
-        mail.setTo("peps.mihailov@gmail.com");
-        mail.setFrom("peps.mihailov@gmail.com");
+        mail.setTo("baigy847@gmail.com");
+        mail.setFrom("baigy847@gmail.com");
         mail.setSubject(notificationDTO.getSubject());
         mail.setText("You are approved! Check your account!");
 
@@ -35,8 +35,8 @@ public class NotificationService {
 
     public void sendRegistrationNotification(NotificationDTO notificationDTO) throws MailException{
         SimpleMailMessage mail = new SimpleMailMessage();
-        mail.setTo("peps.mihailov@gmail.com");
-        mail.setFrom("peps.mihailov@gmail.com");
+        mail.setTo("baigy847@gmail.com");
+        mail.setFrom("baigy847@gmail.com");
         mail.setSubject("Registration");
         mail.setText("You are successfully registered! Check your account!");
 

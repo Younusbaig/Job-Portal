@@ -217,7 +217,7 @@ article .c{
 .parallax {
     /* The image used */
 
-    background-image: url("../img/home.jpg");
+    background-image: url("../img/home.jpg/home.png");
     /* Set a specific height */
     min-height: 700px;
 

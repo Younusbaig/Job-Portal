@@ -1,6 +1,7 @@
 package springboot.models;
 
 import javax.persistence.*;
+import javax.validation.constraints.Null;
 import java.util.List;
 
 @Entity
@@ -14,6 +15,7 @@ public class Post {
     private String location;
     private String jobType;
     private boolean active;
+
     private String imgName;
 
     public Post(){}

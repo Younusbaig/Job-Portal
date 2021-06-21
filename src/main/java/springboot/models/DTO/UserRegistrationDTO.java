@@ -2,9 +2,11 @@ package springboot.models.DTO;
 
 import springboot.matchers.FieldMatch;
 
+import javax.persistence.Column;
 import javax.validation.constraints.AssertTrue;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
+
 
 @FieldMatch.List({
         @FieldMatch(first = "password", second = "confirmPassword", message = "The password fields must match"),
@@ -36,7 +38,7 @@ public class UserRegistrationDTO {
 
     @AssertTrue
     private Boolean terms;
-
+    @Column(nullable = true, length = 64)
     private String imgName;
 
     public String getFirstName() {

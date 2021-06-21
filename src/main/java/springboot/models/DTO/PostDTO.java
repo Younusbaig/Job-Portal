@@ -1,5 +1,8 @@
 package springboot.models.DTO;
 
+import net.bytebuddy.implementation.bind.annotation.Empty;
+
+import javax.persistence.Column;
 import javax.validation.constraints.NotEmpty;
 
 public class PostDTO {
@@ -15,6 +18,7 @@ public class PostDTO {
     @NotEmpty
     private String jobType;
 
+    @Column(nullable = true)
     private String imgName;
 
     public String getTopic() {

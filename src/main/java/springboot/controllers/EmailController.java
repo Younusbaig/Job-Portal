@@ -56,10 +56,10 @@ public class EmailController {
     private void sendEmailExample() {
         try {
         // Recipient's email ID needs to be mentioned.
-        String to = "peps.mihailov@gmail.com";
+        String to = "baigy847@gmail.com";
 
         // Sender's email ID needs to be mentioned
-        String from = "peps.mihailov@gmail.com";
+        String from = "baigy847@gmail.com";
 
         // Assuming you are sending email from localhost
         String host = "localhost";

@@ -42,7 +42,7 @@ public class UserRegistrationController {
 
     @PostMapping("registration")
     public String registerUserAccount(@ModelAttribute("user") @Valid UserRegistrationDTO userDto,
-                                      BindingResult result,   @RequestParam("file") MultipartFile file) {
+                                      BindingResult result) {
 
         User existing = userService.findByUsername(userDto.getUserName());
         if (existing != null) {
@@ -54,8 +54,8 @@ public class UserRegistrationController {
             return "registration";
         }
         notificationService.sendRegistrationNotification(new NotificationDTO());
-        storageService.store(file);
-        userDto.setImgName(file.getOriginalFilename());
+        //storageService.store(file);
+        //userDto.setImgName(file.getOriginalFilename());
         userService.save(userDto);
         return "redirect:/login?success";
     }

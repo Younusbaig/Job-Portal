@@ -3,6 +3,7 @@ package springboot.models;
 import org.hibernate.annotations.Where;
 
 import javax.persistence.*;
+import javax.validation.constraints.Null;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;

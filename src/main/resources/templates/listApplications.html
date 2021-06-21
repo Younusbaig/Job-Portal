@@ -21,7 +21,7 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#" th:href="@{/}"><i class="fas fa-wallet"></i>
-                    <span>BILLFOLD</span></a>
+                    <span>Job Portal</span></a>
             </div>
 
             <div>
@@ -59,8 +59,6 @@
             <td th:text="${ap.getUser().lastName}">Last name</td>
 
             <td><a class="btn btn-primary" th:href="@{|/app/${post_id}/${ap.getId()}/${ap.getUser().id}|}" ><i class="fas fa-eye"></i> View</a></td>
-            <td><a th:if="${can_serv.StateToBool(ap.getState())}" class="btn btn-default" disabled th:href="@{|/approve/${ap.getId()}|}"><i class="fas fa-check-circle"></i> Approve</a></td>
-            <td><a th:unless="${can_serv.StateToBool(ap.getState())}" class="btn btn-success" th:href="@{|/approve/${ap.getId()}|}"><i class="fas fa-check-circle"></i> Approve</a></td>
             <td><a class="btn btn-danger" th:href="@{|/reject/${ap.getId()}|}"><i class="fas fa-times-circle"></i> Reject</a></td>
 
         </tr>
@@ -69,7 +67,7 @@
 
 
     <footer>
-    <p>Copyright 2009 Your name</p>
+    <p>Copyright 2020 Your name</p>
 </footer>
 
 <script type="text/javascript"
